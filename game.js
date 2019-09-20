@@ -1,0 +1,93 @@
+// Global variable for remember which option has selected the user</div>
+let userOption = undefined;
+// Some string variables
+let playerWins = 'You Win!';
+let computerWins = 'The Computer Wins :( Give it another try!';
+let rock = 'Rock';
+let paper = 'Paper';
+let scissors = 'Scissors';
+
+function playWith(option) {
+    // first, we deselect the previous selected element (if exist)
+    let userSelectionElement;
+    if (userOption !== undefined) {
+        userSelectionElement = document.getElementById(userOption);
+        // we remove the purple border (if exist)
+        userSelectionElement.style.border = "5px #F8F8F8  solid";
+    }
+    // then, we select the user option and we add
+    // a purple border
+    userOption = option;
+    userSelectionElement = document.getElementById(option);
+    userSelectionElement.style.border = "5px #990066 solid";
+}
+
+function playGame() {
+    let computerOption = Math.random();
+    if (computerOption < 0.32) {
+        computerOption = rock;
+    } else if (computerOption <= 0.62) {
+        computerOption = paper;
+    } else {
+        computerOption = scissors;
+    }
+
+    let resultMessage = compare(userOption, computerOption);
+
+    document.getElementById("result").innerHTML =
+        "<p>User select: " + userOption + " - Computer select:"
+        + computerOption + "</p> <p>" + resultMessage + "</p>";
+
+}
+
+function chooseOpponent() {
+    let computerOption = Math.random();
+    if (computerOption < 0.34) {
+        computerOption = rock;
+    } else if (computerOption <= 0.67) {
+        computerOption = paper;
+    } else {
+        computerOption = scissors;
+    }
+
+    let resultMessage = compare(userOption, computerOption);
+
+    document.getElementById("result").innerHTML =
+        "<p>User select: " + userOption + " - Computer select: "
+        + computerOption + "</p> <p>" + resultMessage + "</p>";
+
+}
+
+function compare(userSelection, computerSelection) {
+    if (userSelection === undefined) {
+        return "Please, select an option before playing"
+    }
+
+    if (userSelection === computerSelection) {
+        return "It is a draw!";
+    }
+
+    if (userSelection === rock) {
+        if (computerSelection === scissors) {
+            return playerWins;
+        } else {
+            return computerWins;
+        }
+
+    } else if (userSelection === paper) {
+
+        if (computerSelection === rock) {
+            return playerWins;
+        } else if (scissors) {
+            return computerWins;
+        }
+
+    } else if (userSelection === scissors) {
+
+        if (computerSelection === rock) {
+            return computerWins;
+        } else {
+            return playerWins;
+        }
+    }
+}
