@@ -4,11 +4,12 @@ The famous Rock-Paper-Scissors Game now as electron app!
 ## How to run
 - Clone or download this repo
 - Open up a terminal in the project directory and hit:
-    - ``npm install`` (to download the node_modules)
-    - ``npm electron .`` (to start the app)
+    - ``npm install`` ([What does npm install do?](https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works))
+    - ``npm start`` ([What does npm start do?](https://javascript.tutorialhorizon.com/2015/08/11/what-does-npm-start-do-in-nodejs/))
  
 ## Game rules
-You already know them by heart I guess ;)
+You already know them by heart I guess.
+But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) they are.
 
 ## Collaboration
 - Open the project in VSCode/IntelliJ/WebStorm (or whatever you prefer) to explore the code
