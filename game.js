@@ -1,5 +1,10 @@
-// Global variable for remember which option has selected the user</div>
-let userOption = undefined;
+// jshint esversion: 6
+
+// Global variable for remembering which option the user has selected
+let userOption;
+let playerVsComputerSelected = false;
+let playerVsPlayerSelected = false;
+let computerVsComputerSelected = false;
 // Some string variables
 let playerWins = 'You Win!';
 let computerWins = 'The Computer Wins :( Give it another try!';
@@ -15,8 +20,7 @@ function playWith(option) {
         // we remove the purple border (if exist)
         userSelectionElement.style.border = "5px #F8F8F8  solid";
     }
-    // then, we select the user option and we add
-    // a purple border
+    // then, we select the user option and we add a purple border
     userOption = option;
     userSelectionElement = document.getElementById(option);
     userSelectionElement.style.border = "5px #990066 solid";
@@ -35,32 +39,41 @@ function playGame() {
     let resultMessage = compare(userOption, computerOption);
 
     document.getElementById("result").innerHTML =
-        "<p>User select: " + userOption + " - Computer select:"
-        + computerOption + "</p> <p>" + resultMessage + "</p>";
+        "<p>User select: " + userOption + " - Computer select:" + computerOption + "</p> <p>" + resultMessage + "</p>";
 
 }
 
-function chooseOpponent() {
-    let computerOption = Math.random();
-    if (computerOption < 0.34) {
-        computerOption = rock;
-    } else if (computerOption <= 0.67) {
-        computerOption = paper;
+function choosePlayerVsComputer() {
+    playerVsComputerSelected = true;
+    computerVsComputerSelected = false;
+    playerVsPlayerSelected = false;
+}
+
+
+function choosePlayerVsPlayer() {
+    playerVsPlayerSelected = true;
+    playerVsPlayerSelected = false;
+    playerVsComputerSelected = false;
+}
+
+function chooseComputerVsComputer() {
+    computerVsComputerSelected = true;
+    playerVsPlayerSelected = false;
+    playerVsComputerSelected = false;
+}
+
+function isOpponentSelected() {
+    if (computerVsComputerSelected || playerVsPlayerSelected || playerVsComputerSelected) {
+        return true;
     } else {
-        computerOption = scissors;
+        return false;
     }
-
-    let resultMessage = compare(userOption, computerOption);
-
-    document.getElementById("result").innerHTML =
-        "<p>User select: " + userOption + " - Computer select: "
-        + computerOption + "</p> <p>" + resultMessage + "</p>";
 
 }
 
 function compare(userSelection, computerSelection) {
     if (userSelection === undefined) {
-        return "Please, select an option before playing"
+        return "Please select an option before playing.";
     }
 
     if (userSelection === computerSelection) {
