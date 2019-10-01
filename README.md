@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/simonberner/rps-electron-app.svg?branch=master)](https://travis-ci.org/simonberner/rps-electron-app)
+<br />
+
 # Rock, Paper, Scissors Game
 The famous Rock-Paper-Scissors Game now as electron app!
 
