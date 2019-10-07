@@ -33,26 +33,26 @@ jobs: # a collection of steps
     steps: # a collection of executable commands
       - checkout # step to check out source code to working directory
       - run:
-          name: update npm
+          name: Update npm
           command: 'sudo npm install -g npm@latest'
       - restore_cache: # step to restore the dependency cache
           # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
-          name: install dependencies
+          name: Install dependencies
           command: npm install
       - save_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
+          key: Dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
       - run:
-          name: update dependencies
+          name: Update dependencies
           command: npm update
       - run:
-          name: run tests
+          name: Run tests
           command: npm test
       - run:
-          name: message
+          name: Print success message
           command: echo "CI done! Happy development!" # Run the `echo` command
 workflows:
   version: 2.1
