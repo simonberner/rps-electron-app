@@ -51,6 +51,9 @@ jobs: # a collection of steps
       - run:
           name: run tests
           command: npm test
+      - run:
+          name: message
+          command: echo "CI done! Happy development!" # Run the `echo` command
 workflows:
   version: 2.1
   run_all_tests:
