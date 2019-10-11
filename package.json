@@ -4,7 +4,8 @@
   "description": "The Rock, Paper, Scissors Game",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "test": "jshint game.js",
+    "test": "jest"
   },
   "keywords": [
     "LearnToCode",
@@ -14,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^6.0.10",
+    "jest": "^24.9.0",
     "jshint": "^2.10.2"
   },
   "build": {
@@ -21,8 +23,5 @@
     "mac": {
       "category": "your.app.category.type"
     }
-  },
-  "scripts": {
-    "test": "jshint game.js"
   }
 }
