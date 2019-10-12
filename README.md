@@ -11,6 +11,9 @@ The famous Rock-Paper-Scissors Game now as electron app!
 - Open up a terminal in the project directory and hit:
     - ``npm install`` ([What does npm install do?](https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works))
     - ``npm start`` ([What does npm start do?](https://javascript.tutorialhorizon.com/2015/08/11/what-does-npm-start-do-in-nodejs/))
+
+## Testing with Jest
+To execute the Jest tests simply hit:``npm test``
  
 ## Game rules
 You already know them by heart I guess.
@@ -29,3 +32,10 @@ But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%
 - Customise the default electron menus
 - Create a proper app icon for the game
 - Create single distribution files for macOS, Win and Linux
+
+## Dependencies
+This project contains the following devDependencies:
+- [Electron](https://electronjs.org/) itself
+- [Jest](https://jestjs.io/) for Testing
+- [Jest-extended](https://github.com/jest-community/jest-extended) for adding additional matchers to Jest's default ones (making it easy to test everything)
+- [JSHint](https://jshint.com/) as static code analysis tool for detecting errors and potential problems in the JavaScript code
