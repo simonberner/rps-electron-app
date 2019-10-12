@@ -104,3 +104,5 @@ function compare(userSelection, computerSelection) {
         }
     }
 }
+
+module.exports = compare;
