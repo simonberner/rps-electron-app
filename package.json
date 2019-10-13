@@ -27,6 +27,7 @@
     }
   },
   "jest": {
+    "setupTestFrameworkScriptFile": "./testSetup.js",
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   }
