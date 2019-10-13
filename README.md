@@ -38,5 +38,6 @@ This project contains the following devDependencies:
 - [Electron](https://electronjs.org/) itself
 - [Jest](https://jestjs.io/) for Testing
 - [Jest-extended](https://github.com/jest-community/jest-extended) for adding additional matchers to Jest's default ones (making it easy to test everything)
+- [Jest-Chain](https://github.com/mattphillips/jest-chain) for adding expressive assertions and chaining matchers
 - [JSHint](https://jshint.com/) as static code analysis tool for detecting errors and potential problems in the JavaScript code
 - [Codecov](https://codecov.io) to generate code coverage reports
