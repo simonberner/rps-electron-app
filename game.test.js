@@ -4,11 +4,19 @@ const compare = require('./game');
 describe('The comparison can be', () => {
     test('a draw', () => {
         let text = compare(true, true);
-        expect(text).toBeString('It is a draw!');
+        expect(text)
+            .toBeString()
+            .toBe('It is a draw!')
+            .toStartWith('It')
+            .toEndWith('draw!')
     });
 
     test('a missing selection', () => {
         let text = compare(undefined);
-        expect(text).toBeString('Please select an option before playing.');
+        expect(text)
+            .toBeString()
+            .toBe('Please select an option before playing.')
+            .toStartWith('Please')
+            .toEndWith('playing.')
     });
 })
