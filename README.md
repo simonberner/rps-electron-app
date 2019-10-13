@@ -33,7 +33,7 @@ But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%
 - Create single distribution files for macOS, Win and Linux
 
 ## Testing with Jest
-To execute the Jest tests simply hit:``npm test``
+To execute the Jest tests simply hit:``npm test`` or just ``jest``
 
 ## Dependencies
 This project contains the following devDependencies:
