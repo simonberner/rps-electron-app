@@ -1,14 +1,14 @@
 const compare = require('./game');
 
 // Test Suite for the compare function
-describe('the comparison can be ', () => {
+describe('The comparison can be', () => {
     test('a draw', () => {
         let text = compare(true, true);
-        expect(text).toBe('It is a draw!');
+        expect(text).toBeString('It is a draw!');
     });
 
-    test('an open selection', () => {
+    test('a missing selection', () => {
         let text = compare(undefined);
-        expect(text).toBe('Please select an option before playing.');
+        expect(text).toBeString('Please select an option before playing.');
     });
 })
