@@ -4,7 +4,8 @@
   "description": "The Rock, Paper, Scissors Game",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "electron ."
   },
   "keywords": [
     "LearnToCode",
