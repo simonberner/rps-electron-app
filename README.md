@@ -20,17 +20,10 @@ But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%
 
 ## Collaboration
 - Open the project in VSCode/IntelliJ/WebStorm (or whatever you prefer) to explore the code
-- Collaborate with me and create a PR with some awesome new features, UI improvements or bug-fixes ;)
+- Collaborate with me and create a PR with some awesome new features, UI improvements or bug-fixes.
 
-## Ideas for new features and improvements
-- Add a feature to change the opponent:
-  - Player1 vs Computer (OK)
-  - Player1 vs Player2 (Pending)
-  - Computer1 vs Computer2 (Pending)
-- Make the UI more awesome
-- Customise the default electron menus
-- Create a proper app icon for the game
-- Create single distribution files for macOS, Win and Linux
+### Ideas for new features and improvements
+Find the current list of open [ideas here](https://github.com/simonberner/rps-electron-app/issues).
 
 ## Testing with Jest
 To execute the Jest tests simply hit:``npm test`` or just ``jest``
