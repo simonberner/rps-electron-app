@@ -1,9 +1,11 @@
 # Rock, Paper, Scissors Game
 ## Continuous Integration
-| Build Status TravisCI  | Build Status CircleCI   | Code Coverage |
+| Build Status TravisCI  | Build Status CircleCI   | Code Coverage
 |---|---|---|
 |[![TravisCI](https://travis-ci.org/simonberner/rps-electron-app.svg?branch=master)](https://travis-ci.org/simonberner/rps-electron-app)|[![CircleCI](https://circleci.com/gh/simonberner/rps-electron-app.svg?style=svg)](https://circleci.com/gh/simonberner/rps-electron-app)|[![codecov](https://codecov.io/gh/simonberner/rps-electron-app/branch/master/graph/badge.svg)](https://codecov.io/gh/simonberner/rps-electron-app)
-<br />
+
+## Chat
+[![Gitter](https://badges.gitter.im/electronjsdevs/rps-electron-app.svg)](https://gitter.im/electronjsdevs/rps-electron-app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## About
 The famous Rock-Paper-Scissors Game now as electron app!
