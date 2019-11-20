@@ -1,8 +1,8 @@
 # Rock, Paper, Scissors Game
 ## Continuous Integration
-| Build Status TravisCI  | Build Status CircleCI   | Code Coverage
-|---|---|---|
-|[![TravisCI](https://travis-ci.org/simonberner/rps-electron-app.svg?branch=master)](https://travis-ci.org/simonberner/rps-electron-app)|[![CircleCI](https://circleci.com/gh/simonberner/rps-electron-app.svg?style=svg)](https://circleci.com/gh/simonberner/rps-electron-app)|[![codecov](https://codecov.io/gh/simonberner/rps-electron-app/branch/master/graph/badge.svg)](https://codecov.io/gh/simonberner/rps-electron-app)
+| Build Status TravisCI  | Build Status CircleCI   | Code Coverage | Dependabot
+|---|---|---|---|
+|[![TravisCI](https://travis-ci.org/simonberner/rps-electron-app.svg?branch=master)](https://travis-ci.org/simonberner/rps-electron-app)|[![CircleCI](https://circleci.com/gh/simonberner/rps-electron-app.svg?style=svg)](https://circleci.com/gh/simonberner/rps-electron-app)|[![codecov](https://codecov.io/gh/simonberner/rps-electron-app/branch/master/graph/badge.svg)](https://codecov.io/gh/simonberner/rps-electron-app) |[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://dependabot.com/)
 
 ## Chat
 [![Gitter](https://badges.gitter.im/electronjsdevs/rps-electron-app.svg)](https://gitter.im/electronjsdevs/rps-electron-app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
