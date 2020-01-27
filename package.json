@@ -14,7 +14,7 @@
   "author": "Simon Berner",
   "license": "ISC",
   "devDependencies": {
-    "codecov": "^3.6.1",
+    "codecov": "^3.6.2",
     "electron": "^7.1.9",
     "jest": "^24.9.0",
     "jest-chain": "^1.1.2",
