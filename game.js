@@ -63,12 +63,7 @@ function chooseComputerVsComputer() {
 }
 
 function isOpponentSelected() {
-    if (computerVsComputerSelected || playerVsPlayerSelected || playerVsComputerSelected) {
-        return true;
-    } else {
-        return false;
-    }
-
+    return computerVsComputerSelected || playerVsPlayerSelected || playerVsComputerSelected;
 }
 
 function compare(userSelection, computerSelection) {
