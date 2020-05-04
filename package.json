@@ -16,7 +16,7 @@
   "devDependencies": {
     "codecov": "^3.6.5",
     "electron": "^8.2.5",
-    "jest": "^25.3.0",
+    "jest": "^25.5.4",
     "jest-chain": "^1.1.5",
     "jest-extended": "^0.11.5",
     "jshint": "^2.11.0"
