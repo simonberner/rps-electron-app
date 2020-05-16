@@ -18,8 +18,12 @@ But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%
 ## How to run
 - Clone or download this repo
 - Open up a terminal in the project directory and hit:
-    - ``npm install`` ([What does npm install do?](https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works))
-    - ``npm start`` ([What does npm start do?](https://javascript.tutorialhorizon.com/2015/08/11/what-does-npm-start-do-in-nodejs/))
+    - ``yarn install`` ([What does npm install do?](https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works))
+    - ``yarn start`` ([What does npm start do?](https://javascript.tutorialhorizon.com/2015/08/11/what-does-npm-start-do-in-nodejs/))
+
+## How upgrade a package
+- Use ``yarn upgrade <package>`` to upgrade a specific dependency
+- Use ``yarn upgrade`` to upgrade all existing dependencies
 
 ## Collaboration
 - Open the project in VSCode/IntelliJ/WebStorm (or whatever you prefer) to explore the code
@@ -29,7 +33,7 @@ But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%
 Find the current list of open [ideas here](https://github.com/simonberner/rps-electron-app/issues).
 
 ## Testing with Jest
-To execute the Jest tests simply hit:``npm test`` or just ``jest``
+To execute the Jest tests simply hit:``yarn test`` or just ``jest``
 
 ## Dependencies
 This project contains the following devDependencies:
