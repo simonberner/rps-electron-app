@@ -34,6 +34,7 @@ To execute the Jest tests simply hit:``npm test`` or just ``jest``
 ## Dependencies
 This project contains the following devDependencies:
 - [Electron](https://electronjs.org/) itself
+- [electron-builder](https://github.com/electron-userland/electron-builder) to package and build a ready distribution Electron app
 - [Jest](https://jestjs.io/) for Testing
 - [Jest-extended](https://github.com/jest-community/jest-extended) for adding additional matchers to Jest's default ones (making it easy to test everything)
 - [Jest-Chain](https://github.com/mattphillips/jest-chain) for adding expressive assertions and chaining matchers
