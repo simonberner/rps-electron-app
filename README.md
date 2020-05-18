@@ -44,3 +44,9 @@ This project contains the following devDependencies:
 - [Jest-Chain](https://github.com/mattphillips/jest-chain) for adding expressive assertions and chaining matchers
 - [JSHint](https://jshint.com/) as static code analysis tool for detecting errors and potential problems in the JavaScript code
 - [Codecov](https://codecov.io) to generate code coverage reports
+
+## A few words about Yarn
+- [A new package manager for JavaScript](https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/)
+- [NPM Vs Yarn](https://medium.com/@vincentnewkirk/npm-vs-yarn-2019-e88757b17038)
+- [Yarn vs npm - Best Package Manager 2020](https://www.positronx.io/yarn-vs-npm-best-package-manager/)
+- [Why and how to migrate from npm to yarn](https://waverleysoftware.com/blog/yarn-vs-npm/)
