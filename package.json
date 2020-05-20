@@ -1,6 +1,7 @@
 {
   "name": "rock-paper-scissors-electron-app",
   "version": "0.0.1",
+  "author": "Simon Berner",
   "description": "The Rock, Paper, Scissors Game",
   "main": "main.js",
   "scripts": {
@@ -27,6 +28,10 @@
     "mac": {
       "category": "your.app.category.type"
     }
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "jest": {
     "setupFilesAfterEnv": [
