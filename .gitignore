@@ -1,6 +1,9 @@
 # IntelliJ
 .idea
 
+# distributrion folder
+dist
+
 # Logs
 logs
 *.log
