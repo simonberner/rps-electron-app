@@ -18,8 +18,8 @@ But just in case, [here](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%
 ## How to run
 - Clone or download this repo
 - Open up a terminal in the project directory and hit:
-    - ``yarn install`` ([What does npm install do?](https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works))
-    - ``yarn start`` ([What does npm start do?](https://javascript.tutorialhorizon.com/2015/08/11/what-does-npm-start-do-in-nodejs/))
+    - ``yarn install`` ([What does yarn install do?](https://classic.yarnpkg.com/en/docs/cli/install/))
+    - ``yarn start`` (runs the start script from the package.json)
 
 ## How upgrade a package
 - Use ``yarn upgrade <package>`` to upgrade a specific dependency
