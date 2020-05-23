@@ -35,6 +35,10 @@ Find the current list of open [ideas here](https://github.com/simonberner/rps-el
 ## Testing with Jest
 To execute the Jest tests simply hit:``yarn test`` or just ``jest``
 
+## electron-builder
+The [electron-builder](https://www.electron.build/) lets you package and build a ready-made distribution for macOS, Windows and Linux.  
+Run ``yarn dist`` to create a dmg, windows installer or deb package.
+
 ## Dependencies
 This project contains the following devDependencies:
 - [Electron](https://electronjs.org/) itself
