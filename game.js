@@ -67,36 +67,35 @@ function isOpponentSelected() {
 }
 
 function compare(userSelection, computerSelection) {
-    if (userSelection === undefined) {
-        return "Please select an option before playing.";
-    }
 
-    if (userSelection === computerSelection) {
-        return "It is a draw!";
-    }
-
-    if (userSelection === rock) {
-        if (computerSelection === scissors) {
-            return playerWins;
-        } else {
-            return computerWins;
-        }
-
-    } else if (userSelection === paper) {
-
-        if (computerSelection === rock) {
-            return playerWins;
-        } else if (scissors) {
-            return computerWins;
-        }
-
-    } else if (userSelection === scissors) {
-
-        if (computerSelection === rock) {
-            return computerWins;
-        } else {
-            return playerWins;
-        }
+    switch (userSelection) {
+        case undefined:
+            return "Please select an option before playing.";
+            break;
+        case computerSelection:
+            return "It is a draw!";
+            break
+        case rock:
+            if (computerSelection === scissors) {
+                return playerWins;
+            } else {
+                return computerWins;
+            }
+            break;
+        case paper:
+            if (computerSelection === rock) {
+                return playerWins;
+            } else if (scissors) {
+                return computerWins;
+            }
+            break;
+        case scissors:
+            if (computerSelection === rock) {
+                return computerWins;
+            } else {
+                return playerWins;
+            }
+            break;
     }
 }
 
