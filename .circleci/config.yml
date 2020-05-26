@@ -33,24 +33,24 @@ jobs: # a collection of steps
     steps: # a collection of executable commands
       - checkout # step to check out source code to working directory
       - run:
-          name: Update npm
-          command: 'sudo npm install -g npm@latest'
+          name: Update yarn
+          command: 'sudo yarn global add yarn@latest'
       - restore_cache: # step to restore the dependency cache
           # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
           name: Install dependencies
-          command: npm install
+          command: yarn install
       - save_cache:
           key: Dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
       - run:
           name: Update dependencies
-          command: npm update
+          command: yarn upgrade
       - run:
           name: Run tests
-          command: npm test
+          command: yarn test
       - run:
           name: Print success message
           command: echo "CI done! Happy development!" # Run the `echo` command
