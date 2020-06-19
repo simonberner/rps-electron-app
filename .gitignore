@@ -68,6 +68,10 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Yarn releases and yarnrc
+.yarn
+.yarnrc
+
 # dotenv environment variables file
 .env
 .env.test
