@@ -1,8 +1,8 @@
 # Rock, Paper, Scissors Game
 ## Continuous Integration
-| Build Status TravisCI  | Build Status CircleCI   | Code Coverage | Dependabot | Vulnerabilities
-|---|---|---|---|---|
-|[![TravisCI](https://travis-ci.org/simonberner/rps-electron-app.svg?branch=master)](https://travis-ci.org/simonberner/rps-electron-app)|[![CircleCI](https://circleci.com/gh/simonberner/rps-electron-app.svg?style=svg)](https://circleci.com/gh/simonberner/rps-electron-app)|[![codecov](https://codecov.io/gh/simonberner/rps-electron-app/branch/master/graph/badge.svg)](https://codecov.io/gh/simonberner/rps-electron-app)|[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://dependabot.com/)|[![Known Vulnerabilities](https://snyk.io/test/github/simonberner/rps-electron-app/badge.svg)](https://snyk.io/test/github/simonberner/rps-electron-app)
+| Build Status TravisCI  | Build Status CircleCI   | Code Coverage | Dependabot | Vulnerabilities | Lint Code Base
+|---|---|---|---|---|---|
+|[![TravisCI](https://travis-ci.org/simonberner/rps-electron-app.svg?branch=master)](https://travis-ci.org/simonberner/rps-electron-app)|[![CircleCI](https://circleci.com/gh/simonberner/rps-electron-app.svg?style=svg)](https://circleci.com/gh/simonberner/rps-electron-app)|[![codecov](https://codecov.io/gh/simonberner/rps-electron-app/branch/master/graph/badge.svg)](https://codecov.io/gh/simonberner/rps-electron-app)|[![dependabot](https://badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot)](https://dependabot.com/)|[![Known Vulnerabilities](https://snyk.io/test/github/simonberner/rps-electron-app/badge.svg)](https://snyk.io/test/github/simonberner/rps-electron-app)|![Lint Code Base](https://github.com/simonberner/rps-electron-app/workflows/Lint%20Code%20Base/badge.svg)
 
 
 ## Chat
