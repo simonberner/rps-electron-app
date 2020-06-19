@@ -54,3 +54,6 @@ This project contains the following devDependencies:
 - [NPM Vs Yarn](https://medium.com/@vincentnewkirk/npm-vs-yarn-2019-e88757b17038)
 - [Yarn vs npm - Best Package Manager 2020](https://www.positronx.io/yarn-vs-npm-best-package-manager/)
 - [Why and how to migrate from npm to yarn](https://waverleysoftware.com/blog/yarn-vs-npm/)
+### Usage
+- [Upgrading a dependency](https://yarnpkg.com/getting-started/usage#upgrading-a-dependency)
+- [yarn-upgrade-all](https://www.npmjs.com/package/yarn-upgrade-all)
