@@ -17,7 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "codecov": "^3.7.0",
-    "electron": "^9.1.0",
+    "electron": "^9.1.2",
     "electron-builder": "^22.7.0",
     "jest": "^26.1.0",
     "jest-chain": "^1.1.5",
